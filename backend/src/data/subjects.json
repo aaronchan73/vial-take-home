@@ -62,5 +62,133 @@
         "gender": "Female",
         "diagnosis_date": "Aug. 20, 2023",
         "status": "Inactive"
+    },
+    {
+        "id": 9,
+        "name": "Tom",
+        "age": 34,
+        "gender": "Male",
+        "diagnosis_date": "Sep. 12, 2019",
+        "status": "Active"
+    },
+    {
+        "id": 10,
+        "name": "Emily",
+        "age": 28,
+        "gender": "Female",
+        "diagnosis_date": "Oct. 22, 2021",
+        "status": "Inactive"
+    },
+    {
+        "id": 11,
+        "name": "Chris",
+        "age": 45,
+        "gender": "Male",
+        "diagnosis_date": "Nov. 5, 2018",
+        "status": "Active"
+    },
+    {
+        "id": 12,
+        "name": "Sarah",
+        "age": 31,
+        "gender": "Female",
+        "diagnosis_date": "Dec. 15, 2020",
+        "status": "Inactive"
+    },
+    {
+        "id": 13,
+        "name": "Michael",
+        "age": 40,
+        "gender": "Male",
+        "diagnosis_date": "Jan. 20, 2022",
+        "status": "Active"
+    },
+    {
+        "id": 14,
+        "name": "Laura",
+        "age": 29,
+        "gender": "Female",
+        "diagnosis_date": "Feb. 11, 2023",
+        "status": "Inactive"
+    },
+    {
+        "id": 15,
+        "name": "David",
+        "age": 33,
+        "gender": "Male",
+        "diagnosis_date": "Mar. 8, 2021",
+        "status": "Active"
+    },
+    {
+        "id": 16,
+        "name": "Sophia",
+        "age": 26,
+        "gender": "Female",
+        "diagnosis_date": "Apr. 30, 2022",
+        "status": "Inactive"
+    },
+    {
+        "id": 17,
+        "name": "Jack",
+        "age": 22,
+        "gender": "Male",
+        "diagnosis_date": "May. 15, 2020",
+        "status": "Active"
+    },
+    {
+        "id": 18,
+        "name": "Olivia",
+        "age": 24,
+        "gender": "Female",
+        "diagnosis_date": "Jun. 9, 2021",
+        "status": "Inactive"
+    },
+    {
+        "id": 19,
+        "name": "Liam",
+        "age": 36,
+        "gender": "Male",
+        "diagnosis_date": "Jul. 14, 2023",
+        "status": "Active"
+    },
+    {
+        "id": 20,
+        "name": "Mia",
+        "age": 30,
+        "gender": "Female",
+        "diagnosis_date": "Aug. 18, 2019",
+        "status": "Inactive"
+    },
+    {
+        "id": 21,
+        "name": "Ethan",
+        "age": 38,
+        "gender": "Male",
+        "diagnosis_date": "Sep. 30, 2022",
+        "status": "Active"
+    },
+    {
+        "id": 22,
+        "name": "Isabella",
+        "age": 27,
+        "gender": "Female",
+        "diagnosis_date": "Oct. 25, 2020",
+        "status": "Inactive"
+    },
+    {
+        "id": 23,
+        "name": "Noah",
+        "age": 32,
+        "gender": "Male",
+        "diagnosis_date": "Nov. 11, 2021",
+        "status": "Active"
+    },
+    {
+        "id": 24,
+        "name": "Ava",
+        "age": 29,
+        "gender": "Female",
+        "diagnosis_date": "Dec. 6, 2022",
+        "status": "Inactive"
     }
 ]

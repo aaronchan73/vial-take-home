@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import fs from 'fs';
 import path from 'path';
 
+// Retrieve data from subjects.json
 export const getSubjects = (req: Request, res: Response) => {
   const subjectPath = path.join(__dirname, '../data/subjects.json');
 

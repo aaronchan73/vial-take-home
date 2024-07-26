@@ -1,5 +1,4 @@
-# Mantine Vite template
-
-Get started with the template by clicking `Use this template` button on the top of the page.
-
-[Documentation](https://mantine.dev/guides/vite/)
+# Vial Take Home Assignment
+## Running the Application
+- Frontend is running on `http://localhost:5173/`
+- Backend is running on `http://localhost:3000/`

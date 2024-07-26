@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "John",
+        "age": 21,
+        "gender": "Male",
+        "diagnosis_date": "Jan. 1, 2020",
+        "status": "Active"
+    },
+    {
+        "id": 2,
+        "name": "Nina",
+        "age": 21,
+        "gender": "Female",
+        "diagnosis_date": "Feb. 5, 2021",
+        "status": "Inactive"
+    },
+    {
+        "id": 3,
+        "name": "Andy",
+        "age": 30,
+        "gender": "Male",
+        "diagnosis_date": "Mar. 12, 2022",
+        "status": "Active"
+    },
+    {
+        "id": 4,
+        "name": "Bob",
+        "age": 27,
+        "gender": "Male",
+        "diagnosis_date": "Apr. 18, 2020",
+        "status": "Inactive"
+    },
+    {
+        "id": 5,
+        "name": "Brie",
+        "age": 22,
+        "gender": "Female",
+        "diagnosis_date": "May. 30, 2023",
+        "status": "Active"
+    },
+    {
+        "id": 6,
+        "name": "Bailley",
+        "age": 29,
+        "gender": "Female",
+        "diagnosis_date": "Jun. 10, 2021",
+        "status": "Inactive"
+    },
+    {
+        "id": 7,
+        "name": "Bambi",
+        "age": 26,
+        "gender": "Female",
+        "diagnosis_date": "Jul. 15, 2020",
+        "status": "Active"
+    },
+    {
+        "id": 8,
+        "name": "Jane",
+        "age": 25,
+        "gender": "Female",
+        "diagnosis_date": "Aug. 20, 2023",
+        "status": "Inactive"
+    }
+]

@@ -36,7 +36,7 @@
         "name": "Brie",
         "age": 22,
         "gender": "Female",
-        "diagnosis_date": "May. 30, 2023",
+        "diagnosis_date": "May 30, 2023",
         "status": "Active"
     },
     {
@@ -132,7 +132,7 @@
         "name": "Jack",
         "age": 22,
         "gender": "Male",
-        "diagnosis_date": "May. 15, 2020",
+        "diagnosis_date": "May 15, 2020",
         "status": "Active"
     },
     {

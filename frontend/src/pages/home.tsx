@@ -1,12 +1,13 @@
+import { Container } from '@mantine/core';
 import DataGrid from "../components/dataGrid.tsx";
 import Header from "../components/header.tsx";
 
 function Home() {
     return (
-    <div>
+    <Container>
       <Header />
       <DataGrid />
-    </div>
+    </Container>
   );
 }
 

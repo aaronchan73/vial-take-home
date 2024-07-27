@@ -13,3 +13,5 @@ cd frontend && npm i && npm run dev
 cd backend && npm i && npm run dev
 ```
 - Backend is running on `http://localhost:3000/`
+## Demo
+https://github.com/user-attachments/assets/93aa08eb-2063-4d54-83cb-34e9fa4ebb38

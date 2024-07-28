@@ -51,9 +51,21 @@ function DataGrid() {
 
   // Filter subjects based on gender, status, and/or name
   const filteredSubjects = subjects.filter((subject: Subject) => {
-    const genderMatch = genderFilters.Male || genderFilters.Female ? genderFilters[subject.gender as Gender] : true;
-    const statusMatch = statusFilters.Active || statusFilters.Inactive ? statusFilters[subject.status as Status] : true;
+    let genderMatch = true;
+    let statusMatch = true;
     const nameMatch = subject.name.toLowerCase().includes(searchTerm.toLowerCase());
+
+    // Check if any of the gender filters are set
+    if (genderFilters.Male || genderFilters.Female) {
+      genderMatch = genderFilters[subject.gender as Gender];
+    }
+    
+    // Check if any of the status filters are set
+    if (statusFilters.Active || statusFilters.Inactive) {
+      statusMatch = statusFilters[subject.status as Status];
+    }
+
+    // Filter subject if any if they match any of the filters
     return genderMatch && statusMatch && nameMatch;
   });
 
@@ -62,10 +74,35 @@ function DataGrid() {
     const aValue = a[sortKey as keyof typeof a];
     const bValue = b[sortKey as keyof typeof b];
 
+    // Sort by ascending order
     if (sortDirection === 'asc') {
-      return aValue < bValue ? -1 : aValue > bValue ? 1 : 0;
-    } else {
-      return aValue > bValue ? -1 : aValue < bValue ? 1 : 0;
+      if (aValue < bValue) {
+        // a should come before b
+        return -1
+      }
+      else if (aValue > bValue) {
+        // a should come after b
+        return 1;
+      }
+      else {
+        // a equals b and no change is needed
+        return 0;
+      }
+    }
+    // Sort by descending order 
+    else {
+      if (aValue > bValue) {
+        // a should come before b
+        return -1;
+      }
+      else if (aValue < bValue) {
+        // a should come after b
+        return 1;
+      }
+      else {
+        // a equals b and no change is needed
+        return 0;
+      }
     }
   });
 
@@ -92,6 +129,15 @@ function DataGrid() {
   const handleStatusChange = (status: Status) => {
     setStatusFilters((prev) => ({ ...prev, [status]: !prev[status] }));
   };
+
+  // Reverse the sorting direction
+  const reverseDirection = (direction: Direction) => {
+    if (direction === 'asc') {
+      return 'desc';
+    } else {
+      return 'asc';
+    }
+  }
 
   return (
     <Container>
@@ -135,10 +181,10 @@ function DataGrid() {
         <Table striped highlightOnHover>
           <thead>
             <tr>
-              <th style={{ textAlign: "left" }} onClick={() => { setSortKey('name'); setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc'); }}>Name</th>
-              <th style={{ textAlign: "left" }} onClick={() => { setSortKey('age'); setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc'); }}>Age</th>
+              <th style={{ textAlign: "left" }} onClick={() => { setSortKey('name'); setSortDirection(reverseDirection(sortDirection)); }}>Name</th>
+              <th style={{ textAlign: "left" }} onClick={() => { setSortKey('age'); setSortDirection(reverseDirection(sortDirection)); }}>Age</th>
               <th style={{ textAlign: "left" }}>Gender</th>
-              <th style={{ textAlign: "left" }} onClick={() => { setSortKey('diagnosis_date'); setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc'); }}>Diagnosis Date</th>
+              <th style={{ textAlign: "left" }} onClick={() => { setSortKey('diagnosis_date'); setSortDirection(reverseDirection(sortDirection)); }}>Diagnosis Date</th>
               <th style={{ textAlign: "left" }}>Status</th>
             </tr>
           </thead>

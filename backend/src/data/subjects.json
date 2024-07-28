@@ -4,7 +4,7 @@
         "name": "John",
         "age": 21,
         "gender": "Male",
-        "diagnosis_date": "Jan. 1, 2020",
+        "diagnosis_date": "2020-01-01T00:00:00Z",
         "status": "Active"
     },
     {
@@ -12,7 +12,7 @@
         "name": "Nina",
         "age": 21,
         "gender": "Female",
-        "diagnosis_date": "Feb. 5, 2021",
+        "diagnosis_date": "2021-02-05T00:00:00Z",
         "status": "Inactive"
     },
     {
@@ -20,7 +20,7 @@
         "name": "Andy",
         "age": 30,
         "gender": "Male",
-        "diagnosis_date": "Mar. 12, 2022",
+        "diagnosis_date": "2022-03-12T00:00:00Z",
         "status": "Active"
     },
     {
@@ -28,7 +28,7 @@
         "name": "Bob",
         "age": 27,
         "gender": "Male",
-        "diagnosis_date": "Apr. 18, 2020",
+        "diagnosis_date": "2020-04-18T00:00:00Z",
         "status": "Inactive"
     },
     {
@@ -36,7 +36,7 @@
         "name": "Brie",
         "age": 22,
         "gender": "Female",
-        "diagnosis_date": "May 30, 2023",
+        "diagnosis_date": "2023-05-30T00:00:00Z",
         "status": "Active"
     },
     {
@@ -44,7 +44,7 @@
         "name": "Bailley",
         "age": 29,
         "gender": "Female",
-        "diagnosis_date": "Jun. 10, 2021",
+        "diagnosis_date": "2021-06-10T00:00:00Z",
         "status": "Inactive"
     },
     {
@@ -52,7 +52,7 @@
         "name": "Bambi",
         "age": 26,
         "gender": "Female",
-        "diagnosis_date": "Jul. 15, 2020",
+        "diagnosis_date": "2020-07-15T00:00:00Z",
         "status": "Active"
     },
     {
@@ -60,7 +60,7 @@
         "name": "Jane",
         "age": 25,
         "gender": "Female",
-        "diagnosis_date": "Aug. 20, 2023",
+        "diagnosis_date": "2023-08-20T00:00:00Z",
         "status": "Inactive"
     },
     {
@@ -68,7 +68,7 @@
         "name": "Tom",
         "age": 34,
         "gender": "Male",
-        "diagnosis_date": "Sep. 12, 2019",
+        "diagnosis_date": "2019-09-12T00:00:00Z",
         "status": "Active"
     },
     {
@@ -76,7 +76,7 @@
         "name": "Emily",
         "age": 28,
         "gender": "Female",
-        "diagnosis_date": "Oct. 22, 2021",
+        "diagnosis_date": "2021-10-22T00:00:00Z",
         "status": "Inactive"
     },
     {
@@ -84,7 +84,7 @@
         "name": "Chris",
         "age": 45,
         "gender": "Male",
-        "diagnosis_date": "Nov. 5, 2018",
+        "diagnosis_date": "2018-11-05T00:00:00Z",
         "status": "Active"
     },
     {
@@ -92,7 +92,7 @@
         "name": "Sarah",
         "age": 31,
         "gender": "Female",
-        "diagnosis_date": "Dec. 15, 2020",
+        "diagnosis_date": "2020-12-15T00:00:00Z",
         "status": "Inactive"
     },
     {
@@ -100,7 +100,7 @@
         "name": "Michael",
         "age": 40,
         "gender": "Male",
-        "diagnosis_date": "Jan. 20, 2022",
+        "diagnosis_date": "2022-01-20T00:00:00Z",
         "status": "Active"
     },
     {
@@ -108,7 +108,7 @@
         "name": "Laura",
         "age": 29,
         "gender": "Female",
-        "diagnosis_date": "Feb. 11, 2023",
+        "diagnosis_date": "2023-02-11T00:00:00Z",
         "status": "Inactive"
     },
     {
@@ -116,7 +116,7 @@
         "name": "David",
         "age": 33,
         "gender": "Male",
-        "diagnosis_date": "Mar. 8, 2021",
+        "diagnosis_date": "2021-03-08T00:00:00Z",
         "status": "Active"
     },
     {
@@ -124,7 +124,7 @@
         "name": "Sophia",
         "age": 26,
         "gender": "Female",
-        "diagnosis_date": "Apr. 30, 2022",
+        "diagnosis_date": "2022-04-30T00:00:00Z",
         "status": "Inactive"
     },
     {
@@ -132,7 +132,7 @@
         "name": "Jack",
         "age": 22,
         "gender": "Male",
-        "diagnosis_date": "May 15, 2020",
+        "diagnosis_date": "2020-05-15T00:00:00Z",
         "status": "Active"
     },
     {
@@ -140,7 +140,7 @@
         "name": "Olivia",
         "age": 24,
         "gender": "Female",
-        "diagnosis_date": "Jun. 9, 2021",
+        "diagnosis_date": "2021-06-09T00:00:00Z",
         "status": "Inactive"
     },
     {
@@ -148,7 +148,7 @@
         "name": "Liam",
         "age": 36,
         "gender": "Male",
-        "diagnosis_date": "Jul. 14, 2023",
+        "diagnosis_date": "2023-07-14T00:00:00Z",
         "status": "Active"
     },
     {
@@ -156,7 +156,7 @@
         "name": "Mia",
         "age": 30,
         "gender": "Female",
-        "diagnosis_date": "Aug. 18, 2019",
+        "diagnosis_date": "2019-08-18T00:00:00Z",
         "status": "Inactive"
     },
     {
@@ -164,7 +164,7 @@
         "name": "Ethan",
         "age": 38,
         "gender": "Male",
-        "diagnosis_date": "Sep. 30, 2022",
+        "diagnosis_date": "2022-09-30T00:00:00Z",
         "status": "Active"
     },
     {
@@ -172,7 +172,7 @@
         "name": "Isabella",
         "age": 27,
         "gender": "Female",
-        "diagnosis_date": "Oct. 25, 2020",
+        "diagnosis_date": "2020-10-25T00:00:00Z",
         "status": "Inactive"
     },
     {
@@ -180,7 +180,7 @@
         "name": "Noah",
         "age": 32,
         "gender": "Male",
-        "diagnosis_date": "Nov. 11, 2021",
+        "diagnosis_date": "2021-11-11T00:00:00Z",
         "status": "Active"
     },
     {
@@ -188,7 +188,7 @@
         "name": "Ava",
         "age": 29,
         "gender": "Female",
-        "diagnosis_date": "Dec. 6, 2022",
+        "diagnosis_date": "2022-12-06T00:00:00Z",
         "status": "Inactive"
     }
 ]

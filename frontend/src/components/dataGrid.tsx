@@ -74,7 +74,19 @@ function DataGrid() {
     const aValue = a[sortKey as keyof typeof a];
     const bValue = b[sortKey as keyof typeof b];
 
-    // Sort by ascending order
+    // Change values to Date objects if sorting by diagnosis_date
+    if (sortKey === 'diagnosis_date') {
+      const aDate = new Date(aValue);
+      const bDate = new Date(bValue);
+      
+      if (sortDirection === 'asc') {
+        return aDate.getTime() - bDate.getTime() 
+      } else {
+        return bDate.getTime() - aDate.getTime();
+      }
+    }
+
+    // Sorting by name or age
     if (sortDirection === 'asc') {
       if (aValue < bValue) {
         // a should come before b
@@ -88,9 +100,7 @@ function DataGrid() {
         // a equals b and no change is needed
         return 0;
       }
-    }
-    // Sort by descending order 
-    else {
+    } else {
       if (aValue > bValue) {
         // a should come before b
         return -1;
@@ -115,7 +125,11 @@ function DataGrid() {
       <td>{subject.name}</td>
       <td>{subject.age}</td>
       <td>{subject.gender}</td>
-      <td>{subject.diagnosis_date}</td>
+      <td>{new Date(subject.diagnosis_date).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+      })}</td>
       <td>{subject.status}</td>
     </tr>
   ));

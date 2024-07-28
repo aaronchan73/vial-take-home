@@ -65,7 +65,7 @@ function DataGrid() {
       statusMatch = statusFilters[subject.status as Status];
     }
 
-    // Filter subject if any if they match any of the filters
+    // Filter subject if they match any of the filters
     return genderMatch && statusMatch && nameMatch;
   });
 
